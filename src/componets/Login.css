@@ -1,0 +1,33 @@
+.login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+}
+
+.loginContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+
+.loginContainer > h2{
+    color: #fff;
+    font-size: 2em !important;
+    margin-top: 18px;
+}
+
+.loginButton{
+    margin-top: 30px !important;
+    color: whitesmoke !important;
+    background-color: #0089cd !important;
+    font-size: 1em !important;
+    width: 250px !important;
+    font-weight:bold !important; 
+    text-transform: capitalize !important;
+}
+
+.loginButton:hover{
+    background-color: white !important;
+    color:#0089cd !important;
+}

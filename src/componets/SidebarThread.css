@@ -1,0 +1,27 @@
+.sidebarThread{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom:1px solid grey;
+    color:white;
+    cursor: pointer;
+}
+
+.sidebarThread:hover{
+    background-color: rgb(2,152,192);
+}
+
+.sidebarThreadDetails{
+    margin-left: 12px;
+    position: relative;
+    width: 100%;
+    padding: 10px 13px;
+}
+
+.sidebarThreadTimestamp{
+    position: absolute;
+    bottom:-8px;
+    right: 0;
+    color: lightgray;
+    font-size: x-small;
+}

@@ -1,0 +1,81 @@
+.thread{
+    display: flex;
+    flex:0.7;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.threadHeader{
+    display: flex;
+    border-bottom:1px solid grey;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.threadHeaderDetails{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    color: white;
+    padding: 10px;
+}
+
+.threadHeaderDetailsInfo{
+    margin-left:10px;
+}
+
+.threadHeaderDetailsInfo>small{
+    color: gray;
+    font-size: small;
+}
+
+.threadHeaderMoreHoriz{
+    color:white;
+}
+
+.threadHeaderMoreHoriz:hover{
+    color:#0088cd;
+}
+
+.threadMessages{
+    border-bottom: 1px solid gray;
+    flex:1;
+    overflow: scroll;
+}
+
+.threadMessages::-webkit-scrollbar{
+    display:none;
+}
+
+.threadInput{
+    display: flex;
+    align-items: center;
+    padding:9px 9px;
+    background-color: transparent;
+    /* border-top:1px soild gray; */
+}
+
+.threadInput > form{
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+}
+
+.threadInput > form > input{
+    width:87%;
+    outline-width:0 ;
+    border:none;
+    background-color: transparent;
+    padding: 5px;
+    color: white;
+    border-radius: 22px;
+} 
+
+.threadInput > form > button{
+    color: lightgray;
+}
+
+.threadInput > form > button:hover{
+    color:#0088dc;
+}
